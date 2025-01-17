@@ -53,12 +53,6 @@ section {
     margin-bottom: 2rem;
 }
 
-/*.image.right img {*/
-/*    width: 200px; !* Set your desired width *!*/
-/*    height: 200px; !* Set your desired height *!*/
-/*    object-fit: cover; !* Ensures the image covers the specified dimensions *!*/
-/*}*/
-
 .image.right {
     float: right;
     margin: 0 0 1em 1.5em;
@@ -78,35 +72,26 @@ section {
     font-weight: bold;
 }
 
-/*.right-image {*/
-/*    width: 33.33%;*/
-/*    float: right;*/
-/*    margin-left: 1rem;*/
-/*    margin-bottom: 1rem;*/
-/*}*/
+header {
+    background-image: url('images/PXL_20241110_061206428.NIGHT.gif');
+    background-size: cover; /* This ensures the image covers the entire header */
+    background-position: center bottom 40%; /* This centers the image in the header */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
 
-/*.image.right {*/
-/*float: right;*/
-/*margin: 0 0 1em 1.5em;*/
-/*top: 0.25em;*/
-/*}*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
-/*!*.image.left, *!*/
-/*.image.right {*/
-/*max-width: 40%;*/
-/*}*/
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-/*!*.image.left img, *!*/
-/*.image.right img {*/
-/*    width: 100%;*/
-/*    max-height: 10%;*/
-/*}*/
-
-/*.image.right {*/
-/*    width: 33.33%;*/
-/*    float: right;*/
-/*    margin-left: 1rem;*/
-/*    margin-bottom: 1rem;*/
-/*    max-width: 100%; !* Ensure the image does not exceed the width of the main content *!*/
-/*    height: auto; !* Maintain the aspect ratio *!*/
-/*}*/
+header, main {
+    flex: 1;
+}
