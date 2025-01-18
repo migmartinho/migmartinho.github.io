@@ -82,6 +82,17 @@ figcaption {
 	text-align: center;
 }
 
+.links_when_small {
+  display: none; /* Hide the image by default */
+}
+
+/* Show the image only on devices with a max width of 768px (tablets and phones) */
+@media (max-width: 768px) {
+	.links_when_small {
+		display: block;
+	}
+}
+
 .responsive-image {
   display: none; /* Hide the image by default */
 }
