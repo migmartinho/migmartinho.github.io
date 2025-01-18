@@ -99,6 +99,9 @@ figcaption {
 	}
 }
 
+.presentation_link {
+	color: lightseagreen;
+}
 .responsive-image {
   display: none; /* Hide the image by default */
 }
