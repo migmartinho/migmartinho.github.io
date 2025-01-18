@@ -2729,7 +2729,7 @@ max-height: 200px;
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 40%;
 		}
 
 			.features article .image img {
@@ -2740,7 +2740,7 @@ max-height: 200px;
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 55%;
 		}
 
 			.features article .inner > :last-child {
