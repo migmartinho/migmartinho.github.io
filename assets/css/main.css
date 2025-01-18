@@ -84,7 +84,13 @@ figcaption {
 
 .links_when_small {
   display: none; /* Hide the image by default */
+	text-align: center;
+/*	margin-right: 500px;*/
 }
+
+/*.links_when_small a:last-child {*/
+/*  margin-right: 1000px; !* Remove margin from the last item *!*/
+/*}*/
 
 /* Show the image only on devices with a max width of 768px (tablets and phones) */
 @media (max-width: 768px) {
