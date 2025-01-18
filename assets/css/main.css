@@ -82,6 +82,28 @@ figcaption {
 	text-align: center;
 }
 
+.responsive-image {
+  display: none; /* Hide the image by default */
+}
+
+/* Show the image only on devices with a max width of 768px (tablets and phones) */
+@media (max-width: 768px) {
+  .responsive-image {
+    display: block;
+  }
+
+.responsive-image {
+  text-align: right; /* Aligns the image to the right */
+}
+.responsive-image img {
+	max-width: 200px;
+max-height: 200px;
+
+  }
+}
+
+
+
 /* Basic */
 
 	html {
