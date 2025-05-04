@@ -3382,3 +3382,23 @@ max-height: 200px;
     color: red;
     font-weight: bold;
 }
+
+.compact-list {
+	list-style-type: disc; /* Change to desired bullet style */
+	padding-left: 20px; /* Indentation for the main list */
+  }
+  
+  .compact-list li {
+	margin: 0; /* Remove margin from list items */
+	padding: 0; /* Remove padding from list items */
+  }
+  
+  .compact-list ul {
+	margin: 0; /* Remove margin from nested lists */
+	padding-left: 20px; /* Indentation for nested lists */
+  }
+  
+  .compact-list ul li {
+	margin: 0; /* Remove margin from nested list items */
+	padding: 0; /* Remove padding from nested list items */
+  }
